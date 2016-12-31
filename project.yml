@@ -142,36 +142,36 @@ Layer:
     srs-name: 900913
     advanced:
       extent_from_subquery: 'true'
-  - geometry: raster
-    extent:
-      - -179.99988650551296
-      - -60.01077716383244
-      - 179.999898712822
-      - 60.01041647383395
-    id: hillshade
-    class: ''
-    Datasource:
-      file: /home/ybon/Code/maps/hdm/DEM/data/hillshade.vrt
-      type: gdal
-    srs-name: 900913
-    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    advanced: {}
-    name: hillshade
-  - geometry: linestring
-    extent:
-      - -179.99999692067183
-      - -84.96651228427099
-      - 179.99999692067183
-      - 84.96651228427098
-    id: contour_line
-    class: ''
-    Datasource:
-      file: /home/ybon/Code/maps/hdm/DEM/data/contour-25m.shp
-      type: shape
-    srs-name: autodetect
-    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    advanced: {}
-    name: contour_line
+#  - geometry: raster
+#    extent:
+#      - -179.99988650551296
+#      - -60.01077716383244
+#      - 179.999898712822
+#      - 60.01041647383395
+#    id: hillshade
+#    class: ''
+#    Datasource:
+#      file: /home/ybon/Code/maps/hdm/DEM/data/hillshade.vrt
+#      type: gdal
+#    srs-name: 900913
+#    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
+#    advanced: {}
+#    name: hillshade
+#  - geometry: linestring
+#    extent:
+#      - -179.99999692067183
+#      - -84.96651228427099
+#      - 179.99999692067183
+#      - 84.96651228427098
+#    id: contour_line
+#    class: ''
+#    Datasource:
+#      file: /home/ybon/Code/maps/hdm/DEM/data/contour-25m.shp
+#      type: shape
+#    srs-name: autodetect
+#    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
+#    advanced: {}
+#    name: contour_line
   - Datasource:
       dbname: hdm
       geometry_field: way
