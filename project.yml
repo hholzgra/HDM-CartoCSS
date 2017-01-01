@@ -31,7 +31,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: land-low
-    name: land-low
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
   - Datasource:
@@ -45,7 +44,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: land-high
-    name: land-high
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
   - Datasource:
@@ -77,7 +75,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: landuse_gen0
-    name: landuse_gen0
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -110,7 +107,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: landuse_gen1
-    name: landuse_gen1
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -137,7 +133,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: landuse
-    name: landuse
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -156,7 +151,6 @@ Layer:
 #    srs-name: 900913
 #    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
 #    advanced: {}
-#    name: hillshade
 #  - geometry: linestring
 #    extent:
 #      - -179.99999692067183
@@ -171,7 +165,6 @@ Layer:
 #    srs-name: autodetect
 #    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
 #    advanced: {}
-#    name: contour_line
   - Datasource:
       dbname: hdm
       geometry_field: way
@@ -204,7 +197,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: waterway_low
-    name: waterway_low
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -238,7 +230,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: waterway_med
-    name: waterway_med
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -272,7 +263,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: waterway_high
-    name: waterway_high
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -305,7 +295,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: water_gen0
-    name: water_gen0
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -338,7 +327,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: water_gen1
-    name: water_gen1
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -370,13 +358,11 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: water
-    name: water
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
       extent_from_subquery: 'true'
   - id: landuse_overlays
-    name: landuse_overlays
     Datasource:
       dbname: hdm
       geometry_field: way
@@ -428,7 +414,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: admin-high
-    name: admin-high
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -454,7 +439,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: admin-med
-    name: admin-med
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -480,13 +464,11 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: admin-low
-    name: admin-low
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
       extent_from_subquery: 'true'
   - id: buildings
-    name: buildings
     class: ''
     Datasource:
       dbname: hdm
@@ -538,7 +520,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: aeroway-poly
-    name: aeroway-poly
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -568,7 +549,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: aeroway
-    name: aeroway
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -593,7 +573,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: turning_circle_case
-    name: turning_circle_case
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -673,7 +652,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: roads_high
-    name: roads_high
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -700,7 +678,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: ferry
-    name: ferry
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -727,7 +704,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: railway
-    name: railway
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -759,7 +735,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: roads_med
-    name: roads_med
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -787,7 +762,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: roads_low
-    name: roads_low
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -811,7 +785,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: turning_circle_fill
-    name: turning_circle_fill
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -836,7 +809,6 @@ Layer:
     class: barriers
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: barrier_lines
     advanced:
       extent_from_subquery: 'true'
   - extent:
@@ -865,7 +837,6 @@ Layer:
     class: barriers
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: barrier_areas
     advanced:
       extent_from_subquery: 'true'
   - extent:
@@ -887,7 +858,6 @@ Layer:
     class: power-poi
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: power-poly
     advanced:
       extent_from_subquery: 'true'
   - extent:
@@ -909,7 +879,6 @@ Layer:
     class: ''
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: power-line
     advanced:
       extent_from_subquery: 'true'
   - extent:
@@ -931,7 +900,6 @@ Layer:
     class: power-poi
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: power-point
     advanced:
       extent_from_subquery: 'true'
   - geometry: point
@@ -954,7 +922,6 @@ Layer:
     class: airport
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: airport-point
     advanced:
       extent_from_subquery: 'true'
   - extent:
@@ -976,11 +943,9 @@ Layer:
     class: airport
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: airport-poly
     advanced:
       extent_from_subquery: 'true'
-  - name: poi-point
-    id: poi-point
+  - id: poi-point
     class: poi
     geometry: point
     extent:
@@ -1018,8 +983,7 @@ Layer:
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     advanced:
       extent_from_subquery: 'true'
-  - name: poi-poly
-    id: poi-poly
+  - id: poi-poly
     class: poi
     extent:
       - -179.99999692067183
@@ -1054,7 +1018,6 @@ Layer:
     advanced:
       extent_from_subquery: 'true'
   - id: low_place
-    name: low_place
     class: ''
     Datasource:
       dbname: hdm
@@ -1097,7 +1060,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: place
-    name: place
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1124,7 +1086,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: area_label
-    name: area_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1151,7 +1112,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: motorway_label
-    name: motorway_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1178,7 +1138,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: mainroad_label
-    name: mainroad_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1211,7 +1170,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: minorroad_label
-    name: minorroad_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1231,7 +1189,6 @@ Layer:
     class: ''
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: admin-label-5-10
     extent:
       - -179.9999999749438
       - -85.051
@@ -1254,7 +1211,6 @@ Layer:
     class: ''
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: admin-label-1-4
     extent:
       - -179.9999999749438
       - -85.051
@@ -1284,7 +1240,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: waterway_label
-    name: waterway_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1320,7 +1275,6 @@ Layer:
       - 179.99999692067183
       - 84.96651228427098
     id: natural_point_label
-    name: natural_point_label
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
     srs-name: 900913
     advanced:
@@ -1345,7 +1299,6 @@ Layer:
     class: ''
     srs-name: 900913
     srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
-    name: housenumber
     advanced:
       extent_from_subquery: 'true'
 scale: 1
